@@ -1,6 +1,6 @@
-const MenuPage=()=>{
+const Navbar=()=>{
     return (
        <div>Helo menu</div>
     )
    }
-   export default MenuPage
+   export default Navbar
