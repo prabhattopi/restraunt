@@ -1,12 +1,13 @@
+
 import Link from "next/link"
 import MenuPage from "./Menu"
 import CartIcon from "./CartIcon"
 import Image from "next/image"
-
 const Navbar=()=>{
+
     const user=false
     return (
-      <div className="h-12 text-red-500 p-4 flex items-center justify-between border-b-2 border-b-red-500 uppercase md:h-24 lg:px-20 xl:px-40">
+      <div className="sticky top-12 z-20 bg-white h-12 text-red-500 p-4 flex items-center justify-between border-b-2 border-b-red-500 uppercase md:h-24 lg:px-20 xl:px-40">
         {/* Left Links */}
         <div className="hidden md:flex gap-4 flex-1">
             <Link href="/">HomePage</Link>

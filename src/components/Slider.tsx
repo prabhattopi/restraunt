@@ -10,7 +10,7 @@ const data = [
   },
   {
     id: 2,
-    title: "we deliver your order wherever you are in NY",
+    title: "we deliver your order wherever you are in INDIA",
     image: "/slide2.png",
   },
   {
@@ -26,7 +26,7 @@ const Slider = () => {
   useEffect(() => {
     const interval = setInterval(
       () =>
-        setCurrentSlide((prev) => ((prev+1)%data.length)),
+        setCurrentSlide((prev:number) => ((prev+1)%data.length)),
       4000
     );
     return () => clearInterval(interval);
