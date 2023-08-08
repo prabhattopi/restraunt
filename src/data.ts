@@ -356,7 +356,7 @@ type Product = {
   };
   
   
-  type Menu = {
+  export type Menu = {
     id: number;
     slug: string;
     title: string;
