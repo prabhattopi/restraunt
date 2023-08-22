@@ -6,9 +6,9 @@ import CartIcon from "./CartIcon"
 
 let links = [
     { id: 1, title: "HomePage", url: "/" },
-    { id: 2, title: "Menu", url: "/" },
+    { id: 2, title: "Menu", url: "/menu" },
     { id: 3, title: "Working Hours", url: "/" },
-    { id: 4, title: "Contact", url: "/" },
+    { id: 4, title: "Contact", url: "/contact" },
 ]
 const MenuPage = () => {
     const [open, setOpen] = useState(false)
