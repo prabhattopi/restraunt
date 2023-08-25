@@ -1,9 +1,12 @@
-import { pizzas } from "@/data";
+import { pizzas } from "@/data";``
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+
 const CategoryPage = () => {
+
+
   return (
     <div className="flex flex-wrap text-red-500">
       {pizzas.map((item) => (

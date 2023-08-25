@@ -1,0 +1,1 @@
+export const api="https://3001-cs-377650015156-default.cs-asia-east1-vger.cloudshell.dev/api"
