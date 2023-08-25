@@ -1,1 +1,1 @@
-export const api="https://3001-cs-377650015156-default.cs-asia-east1-vger.cloudshell.dev/api"
+export const api="https://3001-prabhattopi-restraunt-zeyi5ni5v7n.ws-us104.gitpod.io/api"
