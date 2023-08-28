@@ -1,1 +1,1 @@
-export const api="https://3000-prabhattopi-restraunt-re5s4y13k5f.ws-us104.gitpod.io/api"
+export const api=process.env.NEXT_PUBLIC_API_URL
