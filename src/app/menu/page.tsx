@@ -15,7 +15,7 @@ const getData=async()=>{
 
 
 } 
-const MenuPage = async() => {
+const Menu = async() => {
     const menu:MenuType=await getData()
     console.log(menu)
   return (
@@ -38,4 +38,4 @@ const MenuPage = async() => {
   );
 };
 
-export default MenuPage;
+export default Menu;
