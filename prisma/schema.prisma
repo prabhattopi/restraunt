@@ -14,7 +14,7 @@ model Category{
     id String @id @default(cuid())
     createAt DateTime @default(now())
     title String
-    description String
+    desc String
     color String
     img String
     slug String @unique
