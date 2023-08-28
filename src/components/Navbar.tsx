@@ -1,6 +1,6 @@
 
 import Link from "next/link"
-import MenuPage from "./Menu"
+import MenuPage from "./MenuPage"
 import CartIcon from "./CartIcon"
 import Image from "next/image"
 const Navbar=()=>{

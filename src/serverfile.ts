@@ -1,1 +1,1 @@
-export const api="https://3001-prabhattopi-restraunt-zeyi5ni5v7n.ws-us104.gitpod.io/api"
+export const api="https://restraunt-five.vercel.app/api"

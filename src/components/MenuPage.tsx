@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import { useState } from "react"
-import Link from "../../node_modules/next/link"
+import Link from "next/link"
 import CartIcon from "./CartIcon"
 
 let links = [
